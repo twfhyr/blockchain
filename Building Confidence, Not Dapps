@@ -1,0 +1,192 @@
+
+## Building Confidence, Not Dapps
+
+### We need to start removing fear from the cryptocurrency equation.
+
+This is a talk I recently gave at [Mainframe’s Decentralized Summit](https://decentralizedsummit.com/agenda/1100-am-january-29-2/). It has been modified a bit for this written, rather than spoken, format. 💖
+
+![](https://cdn-images-1.medium.com/max/2000/1*z6P6AkMbTC67Bu4MiuJT8w.png)
+
+Today I am going to explore building **confidence**, not dapps. Because, right now, dapps are simply visual interfaces for a smart contract or system of smart contracts. We need to be building **a positive experience** that people want to—and can—partake in.
+
+So, whether you are developing, building, designing, or otherwise working on these user interfaces… these dapps… these things that allow users to interact with the blockchain in some way, we need ensure we are building **confidence** in our users.
+
+![](https://cdn-images-1.medium.com/max/2000/1*Q0ORkR-BArU4gkusji-MTw.png)
+
+Recently, we have been talking to a lot of users as we are updating the interface of [MyCrypto](https://mycrypto.com/). We’re talking to them specifically about our new designs, but we also learn about their experience across the entire ecosystem.
+
+The above are some of the words and phrases we keep hearing from people as they attempt to navigate this crazy crypto world. Things like “I’m scared” and “I don’t understand.”
+
+Sometimes unexpected things happen when they click something. They become confused about where they are and how they got there, which makes them feel dumb and ultimately results in them giving up.
+
+We always think we are building the best and prettiest interfaces but when we actually put people in the driver’s seat and listen to them, it’s clear that we have a long, long way to go.
+
+![](https://cdn-images-1.medium.com/max/2000/1*t3211X6QgCYIZ4HiL7An4A.png)
+
+So, ideally, what sorts of things ***should ***people be experiencing? What should they be feeling?
+
+Well, when you use a really well designed application, you don’t typically think about much. You certainly aren’t thinking about each specific interaction with the app. Nothing unexpected happens so you aren’t caught off-guard or intimidated.
+
+We want to hear positive things or, perhaps surprisingly, nothing at all. When you are exploring an app successfully and with confidence, you are clicking things, going back and forth, learning about what you can do, and doing the thing you initially set out to do. You aren’t worried about losing all your money or surprised by where you land.
+
+![](https://cdn-images-1.medium.com/max/2000/1*5AVzuYUNQiUmp92OBn7ZFA.png)
+
+You have **confidence**. And when you are confident in your abilities and confident in the application you are using, your attitude is wildly different than when you are using a confusing application. Instead of being hesitant or scared or frustrated or thinking you’re dumb, you simply explore the app. You get excited by things. It “just works.”
+
+![](https://cdn-images-1.medium.com/max/2000/1*cfoVMbbTkR5Y-LRD83CL8w.png)
+
+Now, to be fair, people struggle with decentralized applications not just because this ecosystem is lacking mature design. It’s because dapps are fundamentally different. We’re entering a new frontier. Unlike traditional applications, dapps put the user in **full control. **Additionally**, **the user is often dealing directly or indirectly with assets that have real **monetary value**.
+
+When you combine **real money** with a lack of **undo buttons**, a lack of **password resets**, and a lack of a **central place that fixes all the problems**, the risk of something going wrong increases and therefore the user’s confidence decreases.
+
+We are also seeing people struggle with the **handoff that occurs between the dapp itself and the Web3 provider**. The Web3 provider is the thing that allows a user to send funds and interact with the blockchain, typically your [MetaMask](https://metamask.io/) browser extension or your [mobile wallet / dapp browser](https://trustwallet.com/).
+
+For example, you visit the Augur dapp in your browser with MetaMask installed or in the browser that is built into your Trust Wallet mobile application. When you place a bet on a prediction market, the Augur dapp sends the information to either your MetaMask or your Trust Wallet for signing and broadcasting to the network.
+
+**Why doesn’t the dapp just do this itself? **Because doing it this way separates concerns and limits the trust necessary for you to interact with a dapp. Dapps never get access to your actual funds or private key, nor do dapp developers need to build wallet functionality or deal with key management and all the security that comes with it.
+
+The downside is that a hand-off of information occurs between these two separate things *and* that this information is fairly limited because what MetaMask or Trust Wallet listen for has to be universal across all decentralized applications.
+
+![](https://cdn-images-1.medium.com/max/2000/1*Di53xYgO3DUqA8elBGVj6w.png)
+
+Let’s look at a tangible example of how this works with a real, live decentralized application: [**Compound](https://compound.finance/)**. If you are interested in learning about what Compound actually is, [you should definitely read our recent article](https://medium.com/mycrypto/learning-about-supplying-borrowing-with-compound-a2ca4eef7d6c).
+
+But, briefly, Compound allows you to “supply” (or lend) assets you are holding in order to gain interest on those assets. You can also borrow assets, using the assets you previously supplied as collateral. Again, if you want to know more and understand **why** you might want to use Compound, [read our recent article on the subject](https://medium.com/mycrypto/learning-about-supplying-borrowing-with-compound-a2ca4eef7d6c).
+
+We love Compound and are impressed by what they have managed to build and **ship** (!!!) at both the protocol level and the interface level. However, as you will see shortly, the experience is still a bit daunting.
+
+![](https://cdn-images-1.medium.com/max/2000/1*3pfu43QtG6kLXS92UJtqRA.png)
+
+When you want to supply your first asset, you are presented with the above. What is really, really nice about this is there is literally only one call to action. You can’t miss it. You can’t get distracted. You *want* to click it. And if you keep clicking these calls to action, you *will* supply your crypto asset and you will start gaining interest on that asset.
+
+But, in order to click those buttons, you need to have confidence in yourself, the Compound dapp, and MetaMask. You need to trust all of these things, trust that it will be okay, and trust that you won’t lose all your money.
+
+![](https://cdn-images-1.medium.com/max/2000/1*n0qVmrz7vLf1JEendybNvg.png)
+
+So the first button says, “Enable REP”. Now, I don’t necessarily know what “Enable REP” means but it looks easy. I *can* just press the button.
+
+![](https://cdn-images-1.medium.com/max/2000/1*rAR5KFH2SDiA4rf2_WTk3Q.png)
+
+Unfortunately, when I do click, the above is what I’m presented with. Compound has sent the request to MetaMask that will, we assume, “enable REP”. In turn, MetaMask asks me to approve that request, and gives me this absolutely overwhelming pile of information to help me decide whether or not I should approve it. The information presented is incredibly unclear, confusing, and downright scary. Basically, it makes me go…
+
+![](https://cdn-images-1.medium.com/max/2000/1*vpOHlGKYsxNovnQTe0OeFg.png)
+
+So now feel like I should just run away. Quickly. This is obviously not a great place to be.
+
+![](https://cdn-images-1.medium.com/max/2000/1*JdktW_2xvzpBc352Mtyeqg.png)
+
+Why exactly did I feel like this?
+
+First, I didn’t ever understand what I was doing in the first place. I don’t know what “Enable REP” means. I don’t know why I need to enable it first.
+
+Secondly, when I did decide to “go for it”, I was definitely not expecting a MetaMask pop up to appear. Typically this pop up shows up when I am interacting directly with the blockchain… usually meaning I am sending Ether or a token from one place to another place.
+
+Thirdly, I couldn’t gain any insight from the information displayed by MetaMask.
+
+And, lastly, I am really really really scared about losing my money.
+
+Unfortunately, I have lost confidence in what I was doing, which means I won’t continue on, which means I will never supply a Compound loan nor gain interest, which means I’ll just keep holding my funds in my account, not using these dapps, and praying that my money never gets lost.
+
+**This is the sad state of the existing ecosystem.**
+
+![](https://cdn-images-1.medium.com/max/2000/1*0r_ctBzd72fgUhc0JRN8Jg.png)
+
+How do we fix it? How do we make this experience better? What sorts of things can dapps generally do to build confidence?
+
+![](https://cdn-images-1.medium.com/max/2000/1*hFTCSAJX-HSHK5nRzwu-9w.png)
+
+Education is key. **Your dapp should teach me the things I need to know in order to use your dapp successfully and with confidence.** This means helping me understand core concepts and new words. It means making sure I know what actions I am taking, why I am taking those actions, and ensuring I understand how all the pieces of the puzzle fit together.
+
+In the cryptocurrency space, we *really* love to make up new words and throw crazy concepts at the user. For newcomers, this immediately results in an intimidating experience. [MyCrypto](https://mycrypto.com/) fails at this, too. When you land on our site, you see keystore file, private key, mnemonic phrase, hardware wallet, etc. Eek.
+
+But there are things that can help eliminate some of the confusion, even if you are using unfamiliar language or confusing, yet established, words.
+
+* Make sure you define and explain the words.
+
+* You can, and should, use analogies to explain them.
+
+* You can use icons or illustrations that help the user visualize the concept.
+
+* You can be consistent across your entire app so that you are constantly reinforcing these concepts again and again, or linking the concept with the icon or illustration again and again in order to build recognition and familiarity.
+
+On a broader level, we need to help users understand the concepts behind your application and the actions they are taking. **People need to know *why *they are doing something, not just *what *they are doing. **This builds confidence by contextualizing each action within the bigger picture.
+
+![](https://cdn-images-1.medium.com/max/2000/1*YPKfH3TUIHu67igtSv-7Zw.png)
+
+**Examine the expectations you set…or don’t set.** When unexpected things happen, it destroys a user’s confidence and ruins their experience. When nothing unexpected happens, a user carries on their merry way and their confidence builds up with each action they take.
+
+When you are testing or designing your dapp, ensure the user always understands or can quickly discern where they currently are, where they just were, how they arrived at this new place, and how to get back to the old place.
+
+Whenever a user is about to take an action *(e.g. clicking a button that says “Enable REP”)*, help them understand what is about to happen, especially if you don’t have full control over what is about to happen *(e.g. when you send the information off to MetaMask for the user to approve)*.
+
+You can also leave little hints around your dapp that lets the user know they **are** in the right place and **guides** them to what they should do next. Compound does a great job this. There is a back button to return to the previous screen and a big, bright button that is always located in the same place that I should click next. I never have to figure out where I am going, nor do I have to make a decision about which button to click, nor do I worry if I clicked the “wrong” button.
+
+![](https://cdn-images-1.medium.com/max/2000/1*8r5_5H_9DqXkGrJRm8S2jQ.png)
+
+Lastly, spend some time thinking about how you can **empower and encourage your users**. When they complete a step successfully, don’t just display a little “Complete.” or “Done.” Let them know what they just did and congratulate them on doing that successfully.
+
+When they do something incorrectly or unsuccessfully or fail to complete a step, don’t just tell them that it failed. Tell them how to do it successfully. There is a huge difference between, “**Failed: Error 3039235**” and **“Whoops! You need to confirm the transaction in order to enable REP. After enabling, you can enter the amount of REP you wish to supply and start gaining interest! Simply click “Enable REP” and then “Confirm” on MetaMask.”**
+
+The first gives the user absolutely no information and gives them no where to go but back to the traditional world.
+
+The second lets them know (1) what they need to do (2) what will happen once they do and (3) exactly how to do it. It uses a casual “Whoops!” to indicate that the world has not ended and it’s going to be okay, as well as “Simply” to indicate that this is super easy and, again, not a big deal.
+
+![](https://cdn-images-1.medium.com/max/2000/1*ZKesO0vlg9_PWisz9w5x9g.png)
+
+And lastly, but not leastly, and very briefly, here is a sneak peak at some designs we’ve been working on over the past couple months. 🎉
+
+One of the most difficult things for us is ensuring our established, more advanced users still have access to the features they need while making the entire experience easier for newcomers. The Network/Node selector is a perfect example. Our new design literally tells new users that if they don’t know what to choose, just click ‘next’. This ensures that privacy-minded users can connect their own node while new users (hopefully) don’t get caught up by this confusing little detail.
+
+![](https://cdn-images-1.medium.com/max/2000/1*pvk_nU36k5G0Y69_x14DKg.png)
+
+More excitingly, this is our new dashboard which will allow you to view, manage, and take action across any number of your accounts. Instead of having an application where you need to unlock each individual account every time you want to do something, you can just see all the information up front.
+
+In the future, this dashboard could include more and more actions that you may want to take and show the status of your different assets or balances or whatever across various dapps in the ecosystem.
+
+![](https://cdn-images-1.medium.com/max/2000/1*Stt_takz-nDSWFXEzbLzwg.png)
+
+A really cool thing we can do with this dashboard is display special content based on the type of user or what a user has just done:
+
+* When a user first creates their wallet we can show a success message along with some helpful resources that can help them get started and understand this crazy crypto world.
+
+* If a user has no funds, we can guide them through the intimidating process of buying their first ETH.
+
+* We can suggest things established users should do or try instead of just HODLing all their tokens and speculating on the price.
+
+* If a user has a lot of assets being protected by a single private key, we can teach them about the benefits of a hardware wallet.
+
+* If a user owns a specific governance token, we can inform them about an ongoing vote they should be aware of.
+
+* We can recommend that established users check out a new dapp or get an ENS name or actually **gasp** use some of those tokens they’ve ‘invested’ in.
+
+The possibilities are truly endless and we are really excited to explore all of them.
+
+![](https://cdn-images-1.medium.com/max/2000/1*m-AKW04koG568kG-Dgg96Q.png)
+
+And with that, I’ll let you get back to debating on crypto-twitter, attempting to call the bottom on /r/ethtrader, or, perhaps, using this information to slightly improve whatever you are building. Because, without truly usable dapps, we will never see the top again and we will eventually run out of things to debate.
+
+Work together, share your knowledge, share the love, and create amazing things that ensure people have a positive, successful, and confident crypto experience. Thank you.
+
+💖 Taylor
+
+## Talk To Me & Share Your Thoughts
+
+* [Twitter](https://twitter.com/mycrypto)
+
+* [Discord](https://discord.gg/hGV8C5c)
+
+* [Medium](https://medium.com/@mycrypto)
+
+* [GitHub](https://github.com/MyCryptoHQ)
+
+* [Help & Support](https://support.mycrypto.com)
+
+* [Reddit](https://www.reddit.com/r/MyCrypto)
+
+* [Facebook](https://www.facebook.com/MyCryptoHQ)
+
+* [Peepeth](https://peepeth.com/MyCrypto)
+
+* [LinkedIn](https://www.linkedin.com/company/mycrypto)
+
+* [Press Inquiries](http://press@mycrypto.com)
